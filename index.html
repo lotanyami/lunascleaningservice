@@ -26,7 +26,12 @@
     }
 
     p {
-      background-image: url('pic.jpg') style="width:100%;height:100%;";
+      background-image: url('pic.jpg') 
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      text-indent: -9999px;
+      ;
     }
   </style>
 </head>
@@ -42,7 +47,7 @@
       <label for="lname">Last name:</label><br>
       <input type="text" id="lname" name="lname" value="Doe"><br><br>
       <input type="submit" value="Submit">
-    </form> 
+    </form>
 
   </main>
 
